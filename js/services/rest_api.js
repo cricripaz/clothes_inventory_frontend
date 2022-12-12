@@ -43,8 +43,10 @@ formAddItem.addEventListener('submit',function (e){
     const type_ = document.getElementById('inputType').value;
     const size_ = document.getElementById('inputSize').value;
     const quantity_ = document.getElementById('inputQuantity').value;
-    const entryDate_ = '2023-12-01';
-    const exitDate_ = '2023-12-01';
+    const entryDate_ = Date.now();
+    const exitDate_ = '2023-12-02';
+
+    console.log(entryDate_);
 
     fetch('https://clothesinventory.up.railway.app/items/addItem' ,{
         method:'POST',
