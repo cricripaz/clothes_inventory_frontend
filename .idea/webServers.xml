@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="61a46729-037a-4766-920f-d1e7ddd1c79f" name="Skynet" url="http://skynet.lp.upb.edu">
+        <fileTransfer rootFolder="/home/cpaz18/public_html" accessType="SFTP" host="skynet.lp.upb.edu" port="44" sshConfigId="47991b3a-5520-44a9-93e1-1b4c09ecc77b" sshConfig="cpaz18@skynet.lp.upb.edu:44 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
